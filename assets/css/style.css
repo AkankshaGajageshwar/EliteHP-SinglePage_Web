@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}       
+.new-nav {
+            background-color:#003682;
+            position: sticky;
+            top: 0;
+        }
+
+.gallery-top
+{ 
+    text-align: center;
+    padding-top: 25px;
+    color:#002662;
+    text-shadow: 2px 2px 5px #36578b;
+         
+}
+.main_gallery1{
+    display: flex;
+    padding-top: 20px;
+}
+.gallery-1{
+    flex: 10;
+    margin: 10px;
+    text-align: center;
+    
+   
+}
+.gallery-1 h3{
+    color: #002662;
+
+}
+.gallery-2{
+    flex: 10;
+    margin: 10px;
+    text-align: center;
+   
+}
+.gallery-2 h3{
+    color: #002662;
+}
+.gallery-3{
+    flex: 10;
+    margin: 10px;
+    text-align: center;
+    
+}
+.gallery-3 h3{  
+    color: #002662;
+}
+.gallery-4{
+    flex: 10;
+    margin: 10px;
+    text-align: center;
+    
+}
+.gallery-4 h3{
+    color: #002662;
+}
+@media(max-width:768px)
+{
+    .main_gallery1{
+    flex-direction: column;
+  }
+  #about{
+    height: 50%;
+  }
+  .Contact-section{
+    flex-direction: column;
+  }
+ 
+   
+}
+.Contact-section{
+    display: flex;
+    
+}
+.contact-map{
+    flex: 25;
+    margin: 25px;
+    
+}
+.contact-form{
+    flex: 25;
+    margin: 25px;
+   
+}
+
+        
+      
